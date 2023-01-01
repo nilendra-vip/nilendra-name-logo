@@ -1,0 +1,153 @@
+var time =gsap.timeline()
+
+time.from('#n11',{
+    height:"0px",
+    duration:.4,
+    delay:.5
+})
+time.from('#n12',{
+    height:"0px",
+    duration:.5,
+})
+time.from('#n13',{
+    height:"0px",
+    duration:.4,
+})
+time.to('.i-line',{
+    height:"120px",
+    duration:.5,
+})
+time.from("i",{
+    scale:0,
+    duration:.5,
+})
+time.from('#l1',{
+    height:"0",
+    duration:.4,
+})
+time.from('#l2',{
+    height:"0",
+    duration:.4,
+})
+time.from('#l4',{
+    width:"0",
+    duration:.4,
+})
+
+time.from('#e1',{
+    width:"0",
+    duration:.4,
+})
+time.from('#e2',{
+    height:"0",
+    duration:.4,
+})
+time.from('#e4',{
+    height:"0",
+    duration:.4,
+})
+time.from('#e5',{
+    width:"0",
+    duration:.4,
+})
+time.from('#e6',{
+    width:"0",
+    duration:.4,
+})
+
+time.from('#n21',{
+    height:"0",
+    duration:.4,
+})
+time.from('#n22',{
+    height:"0",
+    duration:.4,
+})
+time.from('#n23',{
+    height:"0",
+    duration:.4,
+})
+
+time.from('#d1',{
+    height:"0",
+    duration:.4,
+})
+time.from('#d2',{
+    width:"0",
+    duration:.4,
+})
+time.from('#d3',{
+    width:"0",
+    duration:.1,
+})
+time.from('#d5',{
+    height:"0",
+    duration:.4,
+})
+time.from('#d6',{
+    height:"0",
+    duration:.1,
+})
+time.from('#d8',{
+    width:"0",
+    duration:.4,
+})
+
+
+time.from('#r1',{
+    height:"0",
+    duration:.3
+})
+time.from('#r2',{
+    width:"0",
+    duration:.3
+})
+
+time.from('#r3',{
+    width:"0",
+    duration:.1,
+})
+time.from('#r5',{
+    height:"0",
+    duration:.3
+})
+time.from('#r6',{
+    height:"0",
+    duration:.1,
+})
+time.from('#r8',{
+    width:"0",
+    duration:.3
+})
+time.from('#r9',{
+    height:"0",
+    duration:.3
+})
+time.from('#a1',{
+    height:"0",
+    duration:.4,
+})
+time.from('#a2',{
+    height:"0",
+    duration:.4,
+})
+time.from('#a3',{
+    width:"0",
+    duration:.4,
+})
+
+time.to(".n1-line, .i-line, .l-line, .e-line, .n2-line, .d-line, .r-line, .a-line",{
+    backgroundColor:'springgreen',
+    duration:1,   
+    delay:-.5
+})
+time.to("i, h2",{
+    color:"springgreen",
+    duration:.5,
+    delay:-.5
+})
+time.to("#main ,#l3, #e3, #d3 ,#d6, #r4 , #r7",{
+    backgroundColor:'black',
+    duration:1,
+    delay:-.1 
+})
