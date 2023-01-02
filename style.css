@@ -93,7 +93,7 @@ i{
 
 /* For L Letter */
 .l-line{
-    background-color: black;
+    background-color: teal;
     z-index: 3;
 }
 #l1{
@@ -138,7 +138,7 @@ i{
 
 /* For E letter */
 .e-line{
-    background-color: brown ;
+    background-color: rgb(143, 16, 16) ;
     z-index: 4;
 }
 #e1{
@@ -239,15 +239,9 @@ i{
     border-radius: 10px;
     z-index: 6;
 }
-#d1 {
-    width: 10px;
-    height: 50%;
-    position: absolute;
-    bottom: 50%;
-    left: 47%;
-}
 
-#d2{
+
+#d1{
     width: 45%;
     height: 10px;
     position: absolute;
@@ -256,7 +250,7 @@ i{
     border-radius: 10px;
     /* z-index: 4; */
 }
-#d3{
+#d2{
     /* background-color: red; */
     position: absolute;
     top: 0;
@@ -268,7 +262,7 @@ i{
     /* border-bottom-left-radius: 45px; */
     border-top-right-radius: 50px;
 }
-#d4{
+#d3{
     background-color: rgb(239, 227, 227);
     position: absolute;
     top: 10px;
@@ -279,14 +273,14 @@ i{
     /* border-bottom-left-radius: 45px; */
     border-top-right-radius: 50px;
 }
-#d5{
+#d4{
     width: 10px;
     height: 60px;
     position: absolute;
     right: 0;
     top: 13.5%;
 }
-#d6{
+#d5{
     /* background-color: red; */
     position: absolute;
     top: 33.4%;
@@ -297,7 +291,7 @@ i{
     border-bottom-right-radius: 100px;
     /* border-top-left-radius: 0px; */
 }
-#d7{
+#d6{
     background-color: rgb(239, 227, 227);
     position: absolute;
     top: 29.5%;
@@ -308,7 +302,7 @@ i{
     /* border-top-left-radius: 0px; */
 }
 
-#d8{
+#d7{
     width: 45%;
     height: 10px;
     position: absolute;
@@ -317,7 +311,13 @@ i{
     border-radius: 10px;
     /* z-index: 4; */
 }
-
+#d8 {
+    width: 10px;
+    height: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 47%;
+}
 
 
 /* For R Letter */

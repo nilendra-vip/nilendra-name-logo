@@ -69,27 +69,27 @@ time.from('#n23',{
 })
 
 time.from('#d1',{
-    height:"0",
+    width:"0",
     duration:.4,
 })
 time.from('#d2',{
     width:"0",
-    duration:.4,
-})
-time.from('#d3',{
-    width:"0",
     duration:.1,
+})
+time.from('#d4',{
+    height:"0",
+    duration:.4,
 })
 time.from('#d5',{
     height:"0",
-    duration:.4,
-})
-time.from('#d6',{
-    height:"0",
     duration:.1,
 })
-time.from('#d8',{
+time.from('#d7',{
     width:"0",
+    duration:.4,
+})
+time.from('#d8',{
+    height:"0",
     duration:.4,
 })
 
